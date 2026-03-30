@@ -7,6 +7,8 @@ library(ggrepel)
 library("dplyr")
 library(ggpubr)
 
+resLFC <- read.csv("data/processed/2024-03-13-deseq_CE16_CKO_WT.txt")
+
 # Calculate log2 of baseMean if not already done
 resLFC <- resLFC %>%
   mutate(log2_baseMean = log2(baseMean))
