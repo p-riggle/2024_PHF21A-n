@@ -7,6 +7,8 @@ library(ggrepel)
 library("dplyr")
 library(ggpubr)
 
+
+resLFC <- read.csv("data/processed/2024-03-13-deseq_CE16_CKO_WT.txt")
 # Calculate log2 of baseMean if not already done
 resLFC <- resLFC %>%
   mutate(log2_baseMean = log2(baseMean))
@@ -58,7 +60,7 @@ ma_plot <- ggplot() +
   xlim(0, max(log2(resLFC$baseMean)) + 1) +
   ylim(-2, 2) +
   # Add scale_color_manual to handle colors for the legend
-  scale_color_manual(values = c("UP" = "dark orange", "DOWN" = "blue", "NO" = "light grey"),
+  scale_color_manual(values = c("UP" = "dark orange", "DOWN" = "chocolate"", "NO" = "light grey"),
                      labels = c("UP" = "Up-Regulated", "DOWN" = "Down-Regulated", "NO" = "Not Differentially Expressed"),
                      name = "Expression Status") +
   
