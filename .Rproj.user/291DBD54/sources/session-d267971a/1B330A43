@@ -1,17 +1,19 @@
 {
-    "id": "FE6BC023",
-    "path": "~/Documents/GitHub/2024_PHF21A-n/README.md",
-    "project_path": "README.md",
-    "type": "markdown",
+    "id": "1B330A43",
+    "path": "~/Documents/GitHub/2024_PHF21A-n/code/rna_seq/myt1l_vs_phf21a_scatterplot.R",
+    "project_path": "code/rna_seq/myt1l_vs_phf21a_scatterplot.R",
+    "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1774882283588.0,
+    "created": 1774882810933.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "4,0",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1774882212,
